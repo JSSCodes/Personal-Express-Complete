@@ -1,0 +1,89 @@
+body{
+  background: rgb(195,199,252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#main{
+  background: white;
+  border-radius: 4%;
+  width: 400px;
+  height: 750px;
+}
+
+
+.face{
+  background: linear-gradient(rgb(255, 255, 255) 90%,rgb(195,199,252));
+  color: rgb(202,211,235);
+  border: none;
+  border-radius: 8%;
+  height: 300px;
+  width: 95%;
+  font-size: 4rem;
+  text-align: right;
+  margin: 3px;
+  padding: 0.5rem;
+  pointer-events: none;
+}
+
+
+
+button{
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  border: none;
+  margin: 5px;
+  
+}
+
+button:hover{
+background-color:rgb(195,199,252) ;
+}
+
+.faceButtons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.lpurple{
+  background: rgb(237,241,254);
+  color: rgb(201, 209, 234);
+  font-size: 2rem;
+}
+.lpurpleB{
+  background: rgb(237,241,254);
+  color: rgb(201, 209, 234);
+  font-size: 3rem;
+}
+.lpurpleP{
+  background: rgb(237,241,254);
+  color: rgb(201, 209, 234);
+  font-size: 2rem;
+}
+.lpurpleC{
+  background: rgb(237,241,254);
+  color: rgb(201, 209, 234);
+  font-size: 2rem;
+}
+.dpurple{
+  background: rgb(166,185,250);
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.white{
+  background: rgb(255, 255, 255);
+  color: rgb(191, 191, 191);
+  font-size: 2rem;
+  border: solid rgb(244,245,251);
+}
+
+.goaway{
+  background: white;
+  color: white;
+}
+
